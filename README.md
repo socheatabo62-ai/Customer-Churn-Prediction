@@ -23,7 +23,7 @@ customer_churn_dataset_W7.csv. About 80% of customers did not churn and 20% did 
 
 We chose Logistic Regression because it had the highest recall, which suits an early-warning system for churn.
 
-## Limitations and next steps
+## Limitations 
 - Lowering the threshold increases recall but flags more customers who would not have churned.
 - Model scores are modest (ROC AUC about 0.60), so there is room to improve.
-- Next: try SMOTE for class imbalance and tune the threshold using the real cost of retention.
+
