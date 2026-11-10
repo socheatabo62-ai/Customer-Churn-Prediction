@@ -21,7 +21,7 @@ customer_churn_dataset_W7.csv. About 80% of customers did not churn and 20% did 
 |Decision Tree| 0.27 | 0.55 | 0.36 | 0.62 |
 |Random Forest| 0.28 | 0.47 | 0.35 | 0.65 |
 
-We chose Logistic Regression because it had the highest recall, which suits an early-warning system for churn.
+We chose Logistic Regression because it had the highest recall, which suits an early-warning system for churner.
 
 ## Limitations 
 - Lowering the threshold increases recall but flags more customers who would not have churned.
